@@ -1,0 +1,73 @@
+<resources>
+    <string-array name="SoccerLeagueFixtures_value">
+        <item>Select a league</item>
+        <item>English Premier League</item>
+        <item>Bundesliga</item>
+        <item>La Liga</item>
+    </string-array>
+
+    <string-array name="SoccerLeagueFixtures_code">
+        <item>0000</item>
+        <item>4328</item>
+        <item>4331</item>
+        <item>4335</item>
+    </string-array>
+
+    <string-array name="BaseBallLeagueFixtures_value">
+        <item>Select a league</item>
+        <item>MLB</item>
+    </string-array>
+
+    <string-array name="BaseBallLeagueFixtures_code">
+        <item>0000</item>
+        <item>4424</item>
+    </string-array>
+
+    <string-array name="BasketBallLeagueFixtures_value">
+        <item>Select a league</item>
+        <item>NBA</item>
+        <item>WNBA</item>
+    </string-array>
+
+    <string-array name="BasketBallLeagueFixtures_code">
+        <item>0000</item>
+        <item>4387</item>
+        <item>4516</item>
+    </string-array>
+
+    <string-array name="CricketLeagueFixtures_value">
+        <item>Select a league</item>
+        <item>Indian Premier League</item>
+        <item>ODI</item>
+    </string-array>
+
+    <string-array name="CricketLeagueFixtures_code">
+        <item>0000</item>
+        <item>4460</item>
+        <item>4801</item>
+    </string-array>
+
+    <string-array name="league_name">
+        <item>Select a league</item>
+        <item>English Premier League</item>
+        <item>Bundesliga</item>
+        <item>La Liga</item>
+        <item>MLB</item>
+        <item>NBA</item>
+        <item>WNBA</item>
+        <item>Indian Premier League</item>
+        <item>ODI</item>
+    </string-array>
+
+    <string-array name="league_code">
+        <item>000</item>
+        <item>4328</item>
+        <item>4331</item>
+        <item>4335</item>
+        <item>4424</item>
+        <item>4387</item>
+        <item>4516</item>
+        <item>4460</item>
+        <item>4801</item>
+    </string-array>
+</resources>

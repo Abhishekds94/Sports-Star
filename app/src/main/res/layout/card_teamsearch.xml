@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="10dp"
+        android:id="@+id/cv_teamSearch"
+        app:cardBackgroundColor="#18FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:cardElevation="2dp"
+        app:cardCornerRadius="8dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/iv_teamStadium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/card_stadium"
+            android:scaleType="fitXY"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#8B000000" />
+
+        <RelativeLayout
+            android:id="@+id/teamimg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/iv_Team"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="#000"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="180dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center|left">
+
+            <TextView
+                android:id="@+id/tv_teamName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Arsenal"
+                android:gravity="center"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textSize="25sp"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/tv_teamShortName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="(Ars)"
+                android:gravity="center"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:id="@+id/tv_teamYear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="2020"
+                android:gravity="center"
+                android:maxLines="2"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:id="@+id/tv_teamAlias"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Gunners, Gooners"
+                android:gravity="center"
+                android:maxLines="2"
+                android:textSize="18sp"
+                android:textColor="#fff"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

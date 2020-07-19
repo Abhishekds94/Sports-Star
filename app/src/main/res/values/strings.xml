@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Sports Star</string>
+    <string name="please_select_a_sport_from_the_chips">Please select a sport from the chips</string>
+    <string name="soccer">Soccer</string>
+    <string name="baseball">Baseball</string>
+    <string name="basket_ball">Basket Ball</string>
+    <string name="cricket">Cricket</string>
+    <string name="search_using_team_name">Search using team name</string>
+    <string name="no_events_found">No events found</string>
+</resources>

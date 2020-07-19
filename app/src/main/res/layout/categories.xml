@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chipGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:singleLine="true"
+            app:singleSelection="true">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_Soccer"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checkable="true"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="@string/soccer"
+                app:chipBackgroundColor="@drawable/chip_bg"
+                app:chipIcon="@drawable/ic_soccer"
+                app:singleSelection="true" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_BaseBall"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checkable="true"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="@string/baseball"
+                app:chipBackgroundColor="@drawable/chip_bg"
+                app:chipIcon="@drawable/ic_baseball"
+                app:singleSelection="true" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_BasketBall"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checkable="true"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="@string/basket_ball"
+                app:chipBackgroundColor="@drawable/chip_bg"
+                app:chipIcon="@drawable/ic_basketball"
+                app:singleSelection="true" />
+
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_Cricket"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checkable="true"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="@string/cricket"
+                app:chipBackgroundColor="@drawable/chip_bg"
+                app:chipIcon="@drawable/ic_cricket"
+                app:singleSelection="true" />
+
+        </com.google.android.material.chip.ChipGroup>
+
+    </HorizontalScrollView>
+
+</RelativeLayout>

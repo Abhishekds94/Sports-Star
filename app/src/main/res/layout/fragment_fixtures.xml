@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_fixtures"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <FrameLayout
+        android:id="@+id/containerList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/sp_fixtures"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/noEventFound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:text="@string/no_events_found"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:visibility="gone" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/fixtureRC"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/zeroLoaderState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sp_fixtures"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:text="Please select a league from the dropdown"
+            android:textColor="@android:color/black"
+            android:textSize="20dp" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/iv_wavebg"
+            android:scaleType="fitXY"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="home.json"
+            app:lottie_loop="true"
+            app:lottie_speed="1" />
+
+    </RelativeLayout>
+
+    <Spinner
+        android:id="@+id/sp_fixtures"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/spinner_border"
+        android:entries="@array/league_name"
+        android:minHeight="?attr/actionBarSize"
+        android:spinnerMode="dropdown" />
+
+</RelativeLayout>
