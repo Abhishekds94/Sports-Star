@@ -21,7 +21,7 @@
         android:background="#371159"
         android:minHeight="?actionBarSize"
         app:itemIconTint="@drawable/bottom_navigation_selector"
-        app:itemTextColor="#8D8C8C"
+        app:itemTextColor="@drawable/bottom_navigation_selector"
         app:labelVisibilityMode="labeled"
         app:menu="@menu/bottom_nav_menu">
 

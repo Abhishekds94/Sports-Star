@@ -9,8 +9,8 @@
     </style>
 
     <style name="CustomChipChoice" parent="@style/Widget.MaterialComponents.Chip.Action">
-        <item name="chipBackgroundColor">@color/chip_bg</item>
-        <item name="android:textColor">@color/chip_text</item>
+        <item name="chipBackgroundColor">#EF5350</item>
+        <item name="android:textColor">@android:color/white</item>
     </style>
 
 </resources>
