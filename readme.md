@@ -38,7 +38,7 @@ You can build the app with Android Studio or with `./gradlew assembleDebug` comm
 3. [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) - To manage UI-related data in the app lifecycle
 4. [Retrofit 2](https://square.github.io/retrofit/) - To retrieve the data from API
 5. [Glide](https://github.com/bumptech/glide) - To retrieve the data from API (for location update)
-6. [Material Design](https://material.io/develop/android/) - For components such as CardView, Toolbar, and so on
+6. [Material Design](https://material.io/develop/android/) - For components such as CardView, Bottom Navbar, Chips, and so on
 7. [Flaticon](https://www.flaticon.com/) - For all the icons used in the app
 8. [Firebase Analytics](https://firebase.google.com/docs/analytics/get-started?platform=android) - To keep a track of all the user-interactions and user-events
 9. [Flurry Analytics](https://developer.yahoo.com/flurry/docs/analytics/gettingstarted/android/) - To keep a track of all the user-interactions and user-events
@@ -97,19 +97,19 @@ alt="Video Working" width="220" /></a>
 
 ## Analytics Screenshots
 <div>
-  <img src="https://github.com/Abhishekds94/Sports-Star/blob/master/screenshots/firebase_stats.PNG" width="220">
+  <img src="https://github.com/Abhishekds94/Sports-Star/blob/master/screenshots/firebase_stats.PNG" width="350">
 
-  <img src="https://github.com/Abhishekds94/Sports-Star/blob/master/screenshots/firebase_stats2.PNG" width="220">
+  <img src="https://github.com/Abhishekds94/Sports-Star/blob/master/screenshots/firebase_stats2.PNG" width="350">
 
-  <img src="https://github.com/Abhishekds94/Sports-Star/blob/master/screenshots/flurry_stats.PNG" width="220">
+  <img src="https://github.com/Abhishekds94/Sports-Star/blob/master/screenshots/flurry_stats.PNG" width="350">
 </div>
 
 ## Future Scope
 Below are a few of the ideas that I could think of to enhance the application,
-* Add notifications to notifiy user on upcoming match days
+* Add notifications to notify user on match days of selected teams
 * Add offline compatibility using Room and LiveData
 * Adding [Interstitial ads](https://developers.google.com/ad-manager/mobile-ads-sdk/android/interstitial) to monetize the app
-* Add Live scores fetcure with premium API
+* Add Live scores feature with premium API
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
