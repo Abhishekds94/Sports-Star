@@ -8,4 +8,10 @@
     <string name="search_using_team_name">Search using team name</string>
     <string name="no_events_found">No events found</string>
     <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="no_internet_msg">Uho! Looks like the device is not connected to the internet</string>
+    <string name="vs">vs</string>
+    <string name="hyphen">-</string>
+    <string name="fixtures_msg">Please select a league from dropdown</string>
+    <string name="recent_results">Recent Results -</string>
+    <string name="upcoming_fixtures">Upcoming Fixtures -</string>
 </resources>

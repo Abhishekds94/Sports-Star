@@ -40,7 +40,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:maxLines="2"
-                android:textColor="#fff"
+                android:textColor="@android:color/white"
                 android:textSize="20sp"
                 tools:text="Home Team"
                 android:layout_marginLeft="10dp"
@@ -50,7 +50,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="-"
+                android:text="@string/hyphen"
                 android:textColor="#fff"
                 android:textSize="20sp" />
 
@@ -61,7 +61,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:maxLines="2"
-                android:textColor="#fff"
+                android:textColor="@android:color/white"
                 android:textSize="20sp"
                 tools:text="Away Team"
                 android:layout_marginLeft="10dp"
@@ -81,7 +81,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:textColor="#fff"
+                android:textColor="@android:color/white"
                 android:textSize="20sp"
                 android:layout_marginRight="30dp"
                 tools:text="3" />
@@ -90,8 +90,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="-"
-                android:textColor="#fff"
+                android:text="@string/hyphen"
+                android:textColor="@android:color/white"
                 android:textSize="20sp" />
 
             <TextView
@@ -99,7 +99,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:textColor="#fff"
+                android:textColor="@android:color/white"
                 android:textSize="20sp"
                 android:layout_marginLeft="30dp"
                 tools:text="2" />
@@ -112,7 +112,7 @@
             android:layout_gravity="bottom"
             android:layout_marginBottom="10dp"
             android:gravity="center"
-            android:textColor="#fff"
+            android:textColor="@android:color/white"
             android:textSize="14sp"
             tools:text="12-12-12" />
 

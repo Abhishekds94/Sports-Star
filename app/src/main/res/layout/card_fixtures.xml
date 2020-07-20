@@ -40,7 +40,7 @@ android:layout_height="wrap_content">
             android:layout_weight="1"
             android:gravity="center"
             android:maxLines="2"
-            android:textColor="#fff"
+            android:textColor="@android:color/white"
             android:textSize="20sp"
             tools:text="Home Team"
             android:layout_marginLeft="10dp"
@@ -50,8 +50,8 @@ android:layout_height="wrap_content">
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="vs"
-            android:textColor="#fff"
+            android:text="@string/vs"
+            android:textColor="@android:color/white"
             android:textSize="20sp" />
 
         <TextView
@@ -61,7 +61,7 @@ android:layout_height="wrap_content">
             android:layout_weight="1"
             android:gravity="center"
             android:maxLines="2"
-            android:textColor="#fff"
+            android:textColor="@android:color/white"
             android:textSize="20sp"
             tools:text="Away Team"
             android:layout_marginLeft="10dp"
@@ -74,7 +74,7 @@ android:layout_height="wrap_content">
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:gravity="center"
-        android:textColor="#fff"
+        android:textColor="@android:color/white"
         android:textSize="14sp"
         tools:text="12-12-12" />
 
