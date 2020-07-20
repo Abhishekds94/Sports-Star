@@ -53,8 +53,36 @@ You can build the app with Android Studio or with `./gradlew assembleDebug` comm
 
 ## Screenshots
 
+  <img src="https://github.com/Abhishekds94/Sports-Star/blob/master/screenshots/img1.jpg" width="220">
+
+  <img src="https://github.com/Abhishekds94/Sports-Star/blob/master/screenshots/img2.jpg" width="220">
+
+  <img src="https://github.com/Abhishekds94/Sports-Star/blob/master/screenshots/img3.jpg" width="220">
+
+  <img src="https://github.com/Abhishekds94/Sports-Star/blob/master/screenshots/img4.jpg" width="220">
+
+  <img src="https://github.com/Abhishekds94/Sports-Star/blob/master/screenshots/img5.jpg" width="220">
+
+  <img src="https://github.com/Abhishekds94/Sports-Star/blob/master/screenshots/img6.jpg" width="220">
+
+  <img src="https://github.com/Abhishekds94/Sports-Star/blob/master/screenshots/img7.jpg" width="220">
+
+  <img src="https://github.com/Abhishekds94/Sports-Star/blob/master/screenshots/img8.jpg" width="220">
+
+  <img src="https://github.com/Abhishekds94/Sports-Star/blob/master/screenshots/img9.jpg" width="220">
+
+  <img src="https://github.com/Abhishekds94/Sports-Star/blob/master/screenshots/img10.jpg" width="220">
+
+  <img src="https://github.com/Abhishekds94/Sports-Star/blob/master/screenshots/img11.jpg" width="220">
+
+  <img src="https://github.com/Abhishekds94/Sports-Star/blob/master/screenshots/img12.jpg" width="220">
+
+  <img src="https://github.com/Abhishekds94/Sports-Star/blob/master/screenshots/img13.jpg" width="220">
+
+  <img src="https://github.com/Abhishekds94/Sports-Star/blob/master/screenshots/img14.jpg" width="220">
+
 ## App Working Video
-<a href="https://youtu.be/ow2-rHQwBzY" target="_blank"><img src="https://github.com/Abhishekds94/Sports-Star/blob/master/screenshots/video.jpg" 
+<a href="https://youtu.be/ow2-rHQwBzY" target="_blank"><img src="https://github.com/Abhishekds94/Sports-Star/blob/master/screenshots/video.png" 
 alt="Video Working" width="220" /></a>
 
 ## Future Scope
