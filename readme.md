@@ -95,6 +95,15 @@ You can build the app with Android Studio or with `./gradlew assembleDebug` comm
 <a href="https://youtu.be/ow2-rHQwBzY" target="_blank"><img src="https://github.com/Abhishekds94/Sports-Star/blob/master/screenshots/video.png" 
 alt="Video Working" width="220" /></a>
 
+## Analytics Screenshots
+<div>
+  <img src="https://github.com/Abhishekds94/Sports-Star/blob/master/screenshots/firebase_stats.PNG" width="220">
+
+  <img src="https://github.com/Abhishekds94/Sports-Star/blob/master/screenshots/firebase_stats2.PNG" width="220">
+
+  <img src="https://github.com/Abhishekds94/Sports-Star/blob/master/screenshots/flurry_stats.PNG" width="220">
+</div>
+
 ## Future Scope
 Below are a few of the ideas that I could think of to enhance the application,
 * Add notifications to notifiy user on upcoming match days
