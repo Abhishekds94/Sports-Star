@@ -19,10 +19,12 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.fragment.app.Fragment;
 
 import com.abhishek.sportsstar.R;
+import com.flurry.android.FlurryAgent;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.firebase.analytics.FirebaseAnalytics;
 
 import java.io.InputStream;
 import java.net.URL;
@@ -31,6 +33,7 @@ import java.net.URLConnection;
 public class MainActivity extends AppCompatActivity {
 
     private AdView mAdView;
+    private FirebaseAnalytics mFirebaseAnalytics;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,8 +45,18 @@ public class MainActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_main);
 
+        //Initialize Flurry Analytics SDK
+        new FlurryAgent.Builder()
+                .withLogEnabled(true)
+                .build(this, "SJDRG2JFRWMSVSJ9QGFV");
+        FlurryAgent.logEvent("App_Open");
+
         //To check active internet on the device
         checkInternetAvailibility();
+
+        // Obtain the FirebaseAnalytics instance.
+        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
+
 
         BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottom_navBar);
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -53,14 +66,26 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.action_schedule:
                         ResultFragment resultFragment = ResultFragment.getInstance();
                         openFragment(resultFragment);
+                        FlurryAgent.logEvent("ScheduleFragment");
+                        Bundle schedule = new Bundle();
+                        schedule.putString(FirebaseAnalytics.Param.CONTENT, "ScheduleFragment");
+                        mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.SELECT_CONTENT, schedule);
                         break;
                     case R.id.action_search:
                         SearchFragment searchFragment = SearchFragment.getInstance();
                         openFragment(searchFragment);
+                        FlurryAgent.logEvent("SearchFragment");
+                        Bundle search = new Bundle();
+                        search.putString(FirebaseAnalytics.Param.CONTENT, "SearchFragment");
+                        mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.SELECT_CONTENT, search);
                         break;
                     case R.id.action_fixtures:
                         FixtureFragment fixtureFragment = FixtureFragment.getInstance();
                         openFragment(fixtureFragment);
+                        FlurryAgent.logEvent("FixturesFragment");
+                        Bundle fixtures = new Bundle();
+                        fixtures.putString(FirebaseAnalytics.Param.CONTENT, "FixturesFragment");
+                        mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.SELECT_CONTENT, fixtures);
                         break;
                 }
                 return true;

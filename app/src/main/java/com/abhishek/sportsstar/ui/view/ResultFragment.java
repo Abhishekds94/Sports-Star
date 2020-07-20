@@ -25,6 +25,7 @@ import com.abhishek.sportsstar.ui.base.BaseFragment;
 import com.abhishek.sportsstar.ui.viewmodel.ResultViewModel;
 import com.abhishek.sportsstar.ui.viewmodel.ResultViewModelFactory;
 import com.google.android.material.chip.ChipGroup;
+import com.google.firebase.analytics.FirebaseAnalytics;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -39,6 +40,9 @@ public class ResultFragment extends BaseFragment implements ChipGroup.OnCheckedC
     private List<String> teamCodeList = new ArrayList<>();
     private ResultViewModel resultViewModel = null;
     private EventAdapter adapter = null;
+
+    // Obtain the FirebaseAnalytics instance.
+    private FirebaseAnalytics mFirebaseAnalytics = FirebaseAnalytics.getInstance(this.activity);
 
 
     public static ResultFragment getInstance() {
@@ -187,6 +191,10 @@ public class ResultFragment extends BaseFragment implements ChipGroup.OnCheckedC
     public void onItemSelected(AdapterView<?> adapterView, View view, int index, long id) {
         Log.e("####", "Item Selected: " + teamData.get(index));
         Log.e("####", "Item Code: " + teamCodeList.get(index));
+
+        Bundle params = new Bundle();
+        params.putString(FirebaseAnalytics.Param.ITEM_ID, teamData.get(index));
+        mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.SELECT_CONTENT, params);
 
         if (null != resultViewModel && index > 0) {
             adapter.clearData();

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "182252290646",
+    "firebase_url": "https://sports-star-47c37.firebaseio.com",
+    "project_id": "sports-star-47c37",
+    "storage_bucket": "sports-star-47c37.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182252290646:android:0879ca3dcc61ed7c0f71f7",
+        "android_client_info": {
+          "package_name": "com.abhishek.sportsstar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182252290646-48go35pms2kqqnng8fr28aggdouihomp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abhishek.sportsstar",
+            "certificate_hash": "a70dc6944368d13a64ad77fe9c5d6c2deaa558c4"
+          }
+        },
+        {
+          "client_id": "182252290646-i1rm406v5keap4926hvtja28aa9cbs5c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJvkX093jfy1ACUv8CZsFcI6bZAVCPdsw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "182252290646-i1rm406v5keap4926hvtja28aa9cbs5c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
