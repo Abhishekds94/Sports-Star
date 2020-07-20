@@ -54,6 +54,8 @@ You can build the app with Android Studio or with `./gradlew assembleDebug` comm
 ## Screenshots
 
 ## App Working Video
+<a href="https://youtu.be/ow2-rHQwBzY" target="_blank"><img src="https://github.com/Abhishekds94/Sports-Star/blob/master/screenshots/video.jpg" 
+alt="Video Working" width="220" /></a>
 
 ## Future Scope
 Below are a few of the ideas that I could think of to enhance the application,
