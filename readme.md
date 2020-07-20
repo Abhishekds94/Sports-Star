@@ -1,0 +1,66 @@
+
+<p align="center">
+	<img src="https://github.com/Abhishekds94/Sports-Star/blob/master/app/src/main/res/drawable/logo.png" width="220">
+</p>
+
+# Sports Star
+
+Sports Star is an Android application developed as a part of the case study given by ReachMobi. The application allows users to check the details of recent results, upcoming fixtures and about various sport teams.
+The application is developed using the [TheSportsDB](https://www.thesportsdb.com/) API with Google material design concepts.
+
+
+## Installation
+
+Clone this repository using,
+
+```
+git clone https://github.com/Abhishekds94/Sports-Star
+```
+
+## Features
+
+1. MVVM Architecture with Fragment UI
+2. Quick and reliable results
+3. Ability to check upcoming and past events in 8 leagues among 4 major sports
+4. Ability to query (search) about any sports team to know its details and the recent results with upcoming fixtures
+5. On the go analytics of various touch events and user interactions
+6. Ready to use Google Admob (Banner) Ads
+
+
+## Installation
+
+You can build the app with Android Studio or with `./gradlew assembleDebug` command.
+
+
+## Technologies Used
+1. [Android (Java)](https://developer.android.com/guide) - To develop the application using different Android components in Java programming language
+2. [Lottie Animation](https://airbnb.design/lottie/) - To display animations 
+3. [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) - To manage UI-related data in the app lifecycle
+4. [Retrofit 2](https://square.github.io/retrofit/) - To retrieve the data from API
+5. [Glide](https://github.com/bumptech/glide) - To retrieve the data from API (for location update)
+6. [Material Design](https://material.io/develop/android/) - For components such as CardView, Toolbar, and so on
+7. [Flaticon](https://www.flaticon.com/) - For all the icons used in the app
+8. [Firebase Analytics](https://firebase.google.com/docs/analytics/get-started?platform=android) - To keep a track of all the user-interactions and user-events
+9. [Flurry Analytics](https://developer.yahoo.com/flurry/docs/analytics/gettingstarted/android/) - To keep a track of all the user-interactions and user-events
+10. [Google Admob](https://admob.google.com/home/) - To display ads in the app (Banner, Interstitial, etc.)
+
+## Applicaiton target platform
+* `minSdkVersion` - 22
+* `targetSdkVersion` - 29
+* `compileSdkVersion` - 29
+* `buildToolsVersion` - 29.0.3
+* `gradle` - 4.0.1
+
+## Screenshots
+
+## App Working Video
+
+## Future Scope
+Below are a few of the ideas that I could think of to enhance the application,
+* Add notifications to notifiy user on upcoming match days
+* Add offline compatibility using Room and LiveData
+* Adding [Interstitial ads](https://developers.google.com/ad-manager/mobile-ads-sdk/android/interstitial) to monetize the app
+* Add Live scores fetcure with premium API
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
