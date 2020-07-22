@@ -44,7 +44,7 @@ You can build the app with Android Studio or with `./gradlew assembleDebug` comm
 9. [Flurry Analytics](https://developer.yahoo.com/flurry/docs/analytics/gettingstarted/android/) - To keep a track of all the user-interactions and user-events
 10. [Google Admob](https://admob.google.com/home/) - To display ads in the app (Banner, Interstitial, etc.)
 
-## Applicaiton target platform
+## Application target platform
 * `minSdkVersion` - 22
 * `targetSdkVersion` - 29
 * `compileSdkVersion` - 29
