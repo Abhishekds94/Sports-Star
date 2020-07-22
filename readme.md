@@ -37,7 +37,7 @@ You can build the app with Android Studio or with `./gradlew assembleDebug` comm
 2. [Lottie Animation](https://airbnb.design/lottie/) - To display animations 
 3. [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) - To manage UI-related data in the app lifecycle
 4. [Retrofit 2](https://square.github.io/retrofit/) - To retrieve the data from API
-5. [Glide](https://github.com/bumptech/glide) - To retrieve the data from API (for location update)
+5. [Glide](https://github.com/bumptech/glide) - To render images from the API response
 6. [Material Design](https://material.io/develop/android/) - For components such as CardView, Bottom Navbar, Chips, and so on
 7. [Flaticon](https://www.flaticon.com/) - For all the icons used in the app
 8. [Firebase Analytics](https://firebase.google.com/docs/analytics/get-started?platform=android) - To keep a track of all the user-interactions and user-events
