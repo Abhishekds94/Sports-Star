@@ -110,6 +110,7 @@ Below are a few of the ideas that I could think of to enhance the application,
 * Add offline compatibility using Room and LiveData
 * Adding [Interstitial ads](https://developers.google.com/ad-manager/mobile-ads-sdk/android/interstitial) to monetize the app
 * Add Live scores feature with premium API
+* Monetization using various techniques of in-app purchases
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
